@@ -47,7 +47,6 @@ export const products: Product[] = [
     badges: ['Natural', 'Kids-friendly'],
     images: ['/banana-chips-1.jpg', '/banana-chips-2.jpg', '/banana-chips-3.jpg'],
     variants: [
-      { weight: '250g', price: 140, stock: 60 },
       { weight: '500g', price: 270, stock: 35 },
       { weight: '1kg', price: 520, stock: 20 }
     ],
@@ -74,7 +73,6 @@ export const products: Product[] = [
     badges: ['Bestseller', 'Traditional'],
     images: ['https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg', 'https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg', 'https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg'],
     variants: [
-      { weight: '250g', price: 180, stock: 50 },
       { weight: '500g', price: 350, stock: 30 },
       { weight: '1kg', price: 680, stock: 15 }
     ],
@@ -101,7 +99,6 @@ export const products: Product[] = [
     badges: ['Healthy', 'Protein Rich'],
     images: ['https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg', 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg', 'https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg'],
     variants: [
-      { weight: '250g', price: 160, stock: 40 },
       { weight: '500g', price: 310, stock: 25 },
       { weight: '1kg', price: 600, stock: 12 }
     ],
@@ -128,7 +125,6 @@ export const products: Product[] = [
     badges: ['Spicy', 'Traditional'],
     images: ['https://images.pexels.com/photos/6646304/pexels-photo-6646304.jpeg', 'https://images.pexels.com/photos/6646304/pexels-photo-6646304.jpeg', 'https://images.pexels.com/photos/6646304/pexels-photo-6646304.jpeg'],
     variants: [
-      { weight: '250g', price: 170, stock: 35 },
       { weight: '500g', price: 330, stock: 20 },
       { weight: '1kg', price: 640, stock: 10 }
     ],
@@ -155,7 +151,6 @@ export const products: Product[] = [
     badges: ['Kids-friendly', 'Mild'],
     images: ['https://images.pexels.com/photos/4518669/pexels-photo-4518669.jpeg'],
     variants: [
-      { weight: '250g', price: 150, stock: 45 },
       { weight: '500g', price: 290, stock: 28 },
       { weight: '1kg', price: 560, stock: 15 }
     ],
@@ -182,7 +177,6 @@ export const products: Product[] = [
     badges: ['Spicy', 'Popular'],
     images: ['https://images.pexels.com/photos/5560761/pexels-photo-5560761.jpeg'],
     variants: [
-      { weight: '250g', price: 165, stock: 40 },
       { weight: '500g', price: 320, stock: 24 },
       { weight: '1kg', price: 620, stock: 12 }
     ],
@@ -209,7 +203,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Classic'],
     images: ['https://images.pexels.com/photos/6646320/pexels-photo-6646320.jpeg'],
     variants: [
-      { weight: '250g', price: 155, stock: 50 },
       { weight: '500g', price: 300, stock: 30 },
       { weight: '1kg', price: 580, stock: 18 }
     ],
@@ -236,7 +229,6 @@ export const products: Product[] = [
     badges: ['Spicy', 'Andhra Style'],
     images: ['https://images.pexels.com/photos/4518670/pexels-photo-4518670.jpeg'],
     variants: [
-      { weight: '250g', price: 175, stock: 35 },
       { weight: '500g', price: 340, stock: 22 },
       { weight: '1kg', price: 660, stock: 11 }
     ],
@@ -263,7 +255,6 @@ export const products: Product[] = [
     badges: ['Versatile', 'Protein Rich'],
     images: ['https://images.pexels.com/photos/5560764/pexels-photo-5560764.jpeg'],
     variants: [
-      { weight: '250g', price: 140, stock: 55 },
       { weight: '500g', price: 270, stock: 32 },
       { weight: '1kg', price: 520, stock: 16 }
     ],
@@ -290,7 +281,6 @@ export const products: Product[] = [
     badges: ['Modern', 'Crunchy'],
     images: ['https://images.pexels.com/photos/4518644/pexels-photo-4518644.jpeg'],
     variants: [
-      { weight: '250g', price: 120, stock: 60 },
       { weight: '500g', price: 230, stock: 35 },
       { weight: '1kg', price: 440, stock: 20 }
     ],
@@ -317,7 +307,6 @@ export const products: Product[] = [
     badges: ['Light', 'Healthy'],
     images: ['https://images.pexels.com/photos/6646318/pexels-photo-6646318.jpeg'],
     variants: [
-      { weight: '250g', price: 100, stock: 70 },
       { weight: '500g', price: 190, stock: 40 },
       { weight: '1kg', price: 360, stock: 25 }
     ],
@@ -344,7 +333,6 @@ export const products: Product[] = [
     badges: ['Spicy', 'Popular'],
     images: ['https://images.pexels.com/photos/5560762/pexels-photo-5560762.jpeg'],
     variants: [
-      { weight: '250g', price: 110, stock: 65 },
       { weight: '500g', price: 210, stock: 38 },
       { weight: '1kg', price: 400, stock: 22 }
     ],
@@ -371,7 +359,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Authentic'],
     images: ['https://images.pexels.com/photos/4518672/pexels-photo-4518672.jpeg'],
     variants: [
-      { weight: '250g', price: 145, stock: 48 },
       { weight: '500g', price: 280, stock: 26 },
       { weight: '1kg', price: 540, stock: 14 }
     ],
@@ -398,7 +385,6 @@ export const products: Product[] = [
     badges: ['Bestseller', 'Classic'],
     images: ['https://images.pexels.com/photos/4518647/pexels-photo-4518647.jpeg'],
     variants: [
-      { weight: '250g', price: 160, stock: 80 },
       { weight: '500g', price: 310, stock: 45 },
       { weight: '1kg', price: 600, stock: 25 }
     ],
@@ -425,7 +411,6 @@ export const products: Product[] = [
     badges: ['North Indian', 'Tea Time'],
     images: ['https://images.pexels.com/photos/5560766/pexels-photo-5560766.jpeg'],
     variants: [
-      { weight: '250g', price: 130, stock: 55 },
       { weight: '500g', price: 250, stock: 32 },
       { weight: '1kg', price: 480, stock: 18 }
     ],
@@ -454,7 +439,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Aromatic'],
     images: ['https://images.pexels.com/photos/4198170/pexels-photo-4198170.jpeg'],
     variants: [
-      { weight: '250g', price: 220, stock: 30 },
       { weight: '500g', price: 420, stock: 18 },
       { weight: '1kg', price: 800, stock: 10 }
     ],
@@ -481,7 +465,6 @@ export const products: Product[] = [
     badges: ['Cooling', 'Fresh'],
     images: ['https://images.pexels.com/photos/4198172/pexels-photo-4198172.jpeg'],
     variants: [
-      { weight: '250g', price: 200, stock: 25 },
       { weight: '500g', price: 380, stock: 15 },
       { weight: '1kg', price: 720, stock: 8 }
     ],
@@ -508,7 +491,6 @@ export const products: Product[] = [
     badges: ['Medicinal', 'Traditional'],
     images: ['https://images.pexels.com/photos/4198174/pexels-photo-4198174.jpeg'],
     variants: [
-      { weight: '250g', price: 240, stock: 28 },
       { weight: '500g', price: 460, stock: 16 },
       { weight: '1kg', price: 880, stock: 9 }
     ],
@@ -535,7 +517,6 @@ export const products: Product[] = [
     badges: ['Bestseller', 'Traditional'],
     images: ['https://images.pexels.com/photos/4198176/pexels-photo-4198176.jpeg'],
     variants: [
-      { weight: '250g', price: 180, stock: 50 },
       { weight: '500g', price: 350, stock: 30 },
       { weight: '1kg', price: 680, stock: 18 }
     ],
@@ -562,7 +543,6 @@ export const products: Product[] = [
     badges: ['Bestseller', 'Authentic'],
     images: ['https://images.pexels.com/photos/4198178/pexels-photo-4198178.jpeg'],
     variants: [
-      { weight: '250g', price: 200, stock: 45 },
       { weight: '500g', price: 380, stock: 28 },
       { weight: '1kg', price: 740, stock: 15 }
     ],
@@ -589,7 +569,6 @@ export const products: Product[] = [
     badges: ['Spicy', 'Versatile'],
     images: ['https://images.pexels.com/photos/4198180/pexels-photo-4198180.jpeg'],
     variants: [
-      { weight: '250g', price: 220, stock: 35 },
       { weight: '500g', price: 420, stock: 20 },
       { weight: '1kg', price: 800, stock: 12 }
     ],
@@ -618,7 +597,6 @@ export const products: Product[] = [
     badges: ['Premium', 'Festive'],
     images: ['https://images.pexels.com/photos/4110008/pexels-photo-4110008.jpeg'],
     variants: [
-      { weight: '250g', price: 450, stock: 25 },
       { weight: '500g', price: 880, stock: 15 },
       { weight: '1kg', price: 1700, stock: 8 }
     ],
@@ -645,7 +623,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Popular'],
     images: ['https://images.pexels.com/photos/4110010/pexels-photo-4110010.jpeg'],
     variants: [
-      { weight: '250g', price: 280, stock: 40 },
       { weight: '500g', price: 540, stock: 25 },
       { weight: '1kg', price: 1050, stock: 12 }
     ],
@@ -672,7 +649,6 @@ export const products: Product[] = [
     badges: ['Healthy', 'Traditional'],
     images: ['https://images.pexels.com/photos/4110012/pexels-photo-4110012.jpeg'],
     variants: [
-      { weight: '250g', price: 320, stock: 35 },
       { weight: '500g', price: 620, stock: 20 },
       { weight: '1kg', price: 1200, stock: 10 }
     ],
@@ -699,7 +675,6 @@ export const products: Product[] = [
     badges: ['Natural', 'Healthy'],
     images: ['https://images.pexels.com/photos/4110014/pexels-photo-4110014.jpeg'],
     variants: [
-      { weight: '250g', price: 340, stock: 30 },
       { weight: '500g', price: 660, stock: 18 },
       { weight: '1kg', price: 1280, stock: 9 }
     ],
@@ -726,7 +701,6 @@ export const products: Product[] = [
     badges: ['Gifting', 'Aromatic'],
     images: ['https://images.pexels.com/photos/4110016/pexels-photo-4110016.jpeg'],
     variants: [
-      { weight: '250g', price: 260, stock: 45 },
       { weight: '500g', price: 500, stock: 26 },
       { weight: '1kg', price: 980, stock: 14 }
     ],
@@ -753,7 +727,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Festive'],
     images: ['https://images.pexels.com/photos/4110018/pexels-photo-4110018.jpeg'],
     variants: [
-      { weight: '250g', price: 380, stock: 20 },
       { weight: '500g', price: 740, stock: 12 },
       { weight: '1kg', price: 1450, stock: 6 }
     ],
@@ -780,7 +753,6 @@ export const products: Product[] = [
     badges: ['Festival Special', 'Traditional'],
     images: ['https://images.pexels.com/photos/4110020/pexels-photo-4110020.jpeg'],
     variants: [
-      { weight: '250g', price: 350, stock: 15 },
       { weight: '500g', price: 680, stock: 8 },
       { weight: '1kg', price: 1320, stock: 4 }
     ],
@@ -807,7 +779,6 @@ export const products: Product[] = [
     badges: ['Light', 'Natural'],
     images: ['https://images.pexels.com/photos/4110022/pexels-photo-4110022.jpeg'],
     variants: [
-      { weight: '250g', price: 290, stock: 35 },
       { weight: '500g', price: 560, stock: 20 },
       { weight: '1kg', price: 1080, stock: 10 }
     ],
@@ -834,7 +805,6 @@ export const products: Product[] = [
     badges: ['Kids-friendly', 'Classic'],
     images: ['https://images.pexels.com/photos/4110024/pexels-photo-4110024.jpeg'],
     variants: [
-      { weight: '250g', price: 270, stock: 40 },
       { weight: '500g', price: 520, stock: 24 },
       { weight: '1kg', price: 1000, stock: 12 }
     ],
@@ -863,7 +833,6 @@ export const products: Product[] = [
     badges: ['Traditional', 'Long Lasting'],
     images: ['https://images.pexels.com/photos/4518656/pexels-photo-4518656.jpeg'],
     variants: [
-      { weight: '250g', price: 180, stock: 45 },
       { weight: '500g', price: 350, stock: 28 },
       { weight: '1kg', price: 680, stock: 15 }
     ],
@@ -890,7 +859,6 @@ export const products: Product[] = [
     badges: ['Bestseller', 'Classic'],
     images: ['https://images.pexels.com/photos/4518658/pexels-photo-4518658.jpeg'],
     variants: [
-      { weight: '250g', price: 200, stock: 60 },
       { weight: '500g', price: 380, stock: 35 },
       { weight: '1kg', price: 740, stock: 20 }
     ],
@@ -917,7 +885,6 @@ export const products: Product[] = [
     badges: ['Refreshing', 'Vitamin C'],
     images: ['https://images.pexels.com/photos/4518660/pexels-photo-4518660.jpeg'],
     variants: [
-      { weight: '250g', price: 160, stock: 50 },
       { weight: '500g', price: 310, stock: 30 },
       { weight: '1kg', price: 600, stock: 18 }
     ],
@@ -944,7 +911,6 @@ export const products: Product[] = [
     badges: ['Unique', 'Antioxidant Rich'],
     images: ['https://images.pexels.com/photos/4518662/pexels-photo-4518662.jpeg'],
     variants: [
-      { weight: '250g', price: 170, stock: 40 },
       { weight: '500g', price: 330, stock: 22 },
       { weight: '1kg', price: 640, stock: 12 }
     ],
@@ -971,7 +937,6 @@ export const products: Product[] = [
     badges: ['Medicinal', 'Warming'],
     images: ['https://images.pexels.com/photos/4518664/pexels-photo-4518664.jpeg'],
     variants: [
-      { weight: '250g', price: 190, stock: 35 },
       { weight: '500g', price: 370, stock: 20 },
       { weight: '1kg', price: 720, stock: 10 }
     ],
@@ -998,7 +963,6 @@ export const products: Product[] = [
     badges: ['Very Spicy', 'For Spice Lovers'],
     images: ['https://images.pexels.com/photos/4518666/pexels-photo-4518666.jpeg'],
     variants: [
-      { weight: '250g', price: 220, stock: 25 },
       { weight: '500g', price: 420, stock: 15 },
       { weight: '1kg', price: 800, stock: 8 }
     ],

@@ -45,7 +45,33 @@ export const products: Product[] = [
     nutritionHighlights: ['Natural sweetness', 'Potassium rich', 'Coconut oil benefits'],
     bestWith: ['Evening tea', 'Kids snack', 'Travel food'],
     badges: ['Natural', 'Kids-friendly'],
-    images: ['/banana-chips-1.jpg', '/banana-chips-2.jpg', '/banana-chips-3.jpg'],
+    images: ['/src/Product Images/Banana Chips/Banana Chips 1.webp', '/src/Product Images/Banana Chips/Banana Chips 2.webp', '/src/Product Images/Banana Chips/Banana Chips 3.webp'],
+    variants: [
+      { weight: '500g', price: 270, stock: 35 },
+      { weight: '1kg', price: 520, stock: 20 }
+    ],
+    rating: 4.4,
+    reviewCount: 156,
+    isBestseller: true,
+    isNew: false
+  },
+  {
+    id: 'banana-chips-salted',
+    name: 'BANANA CHIPS SALTED',
+    slug: 'banana-chips-salted',
+    category: 'snacks',
+    description: 'Crispy fried banana slices with perfect golden color and enhanced salt seasoning. Kerala-style preparation with authentic taste and savory flavor.',
+    tagline: 'Crispy Golden Salted Banana Slices',
+    ingredients: ['Raw bananas', 'Coconut oil', 'Salt', 'Additional seasoning'],
+    spiceLevel: 'None',
+    allergens: [],
+    shelfLife: '30 days',
+    storage: 'Store in airtight container in cool, dry place',
+    isVegetarian: true,
+    nutritionHighlights: ['Natural sweetness', 'Potassium rich', 'Coconut oil benefits', 'Enhanced flavor'],
+    bestWith: ['Evening tea', 'Kids snack', 'Travel food', 'Movie time'],
+    badges: ['Natural', 'Kids-friendly', 'Salted'],
+    images: ['/src/Product Images/Banana Chips Salted/Banana Chips Salted 1.webp', '/src/Product Images/Banana Chips Salted/Banana Chips Salted 4.webp', '/src/Product Images/Banana Chips Salted/Banana Chips Salted 3.webp'],
     variants: [
       { weight: '500g', price: 270, stock: 35 },
       { weight: '1kg', price: 520, stock: 20 }
@@ -71,7 +97,7 @@ export const products: Product[] = [
     nutritionHighlights: ['High in protein', 'Good source of healthy fats', 'Gluten-free'],
     bestWith: ['Evening tea', 'Coffee', 'Buttermilk'],
     badges: ['Bestseller', 'Traditional'],
-    images: ['https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg', 'https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg', 'https://images.pexels.com/photos/4518651/pexels-photo-4518651.jpeg'],
+    images: ['/src/Product Images/Palli Chekkalu/Palli Chekkalu 1.webp', '/src/Product Images/Palli Chekkalu/Palli Chekkalu 2.webp', '/src/Product Images/Palli Chekkalu/Palli Chekkalu 3.webp'],
     variants: [
       { weight: '500g', price: 350, stock: 30 },
       { weight: '1kg', price: 680, stock: 15 }
@@ -149,7 +175,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Light and crispy', 'Easy to digest', 'Kid-friendly'],
     bestWith: ['Tea', 'Milk', 'Fruit juices'],
     badges: ['Kids-friendly', 'Mild'],
-    images: ['https://images.pexels.com/photos/4518669/pexels-photo-4518669.jpeg'],
+    images: ['/src/Product Images/White Sakinalu/White Sakinalu 1.webp', '/src/Product Images/White Sakinalu/White Sakinalu 2.webp', '/src/Product Images/White Sakinalu/White Sakinalu 3.webp'],
     variants: [
       { weight: '500g', price: 290, stock: 28 },
       { weight: '1kg', price: 560, stock: 15 }
@@ -253,7 +279,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Protein rich', 'Gluten-free', 'Low calorie'],
     bestWith: ['Yogurt', 'Raita', 'As topping'],
     badges: ['Versatile', 'Protein Rich'],
-    images: ['https://images.pexels.com/photos/5560764/pexels-photo-5560764.jpeg'],
+    images: ['/src/Product Images/Boondi Kara/Boondi1.webp', '/src/Product Images/Boondi Kara/Boondi2.webp', '/src/Product Images/Boondi Kara/Boondi3.webp'],
     variants: [
       { weight: '500g', price: 270, stock: 32 },
       { weight: '1kg', price: 520, stock: 16 }
@@ -279,7 +305,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin enriched', 'Crunchy texture', 'Modern recipe'],
     bestWith: ['Evening snack', 'Travel food', 'Movie time'],
     badges: ['Modern', 'Crunchy'],
-    images: ['https://images.pexels.com/photos/4518644/pexels-photo-4518644.jpeg'],
+    images: ['/src/Product Images/Cornflakes/Cornflakes 1.webp', '/src/Product Images/Cornflakes/Cornflakes 2.webp', '/src/Product Images/Cornflakes/Cornflakes 3.webp'],
     variants: [
       { weight: '500g', price: 230, stock: 35 },
       { weight: '1kg', price: 440, stock: 20 }
@@ -357,7 +383,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Traditional recipe', 'Sesame benefits', 'Authentic taste'],
     bestWith: ['Pickle', 'Chutney', 'Yogurt'],
     badges: ['Traditional', 'Authentic'],
-    images: ['https://images.pexels.com/photos/4518672/pexels-photo-4518672.jpeg'],
+    images: ['/src/Product Images/Chakodilu/Chakodilu 1.webp', '/src/Product Images/Chakodilu/Chakodilu 2.webp', '/src/Product Images/Chakodilu/Chakodilu 3.webp'],
     variants: [
       { weight: '500g', price: 280, stock: 26 },
       { weight: '1kg', price: 540, stock: 14 }
@@ -383,7 +409,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Variety of textures', 'Mixed nutrients', 'Classic taste'],
     bestWith: ['Tea', 'Coffee', 'Any time snack'],
     badges: ['Bestseller', 'Classic'],
-    images: ['https://images.pexels.com/photos/4518647/pexels-photo-4518647.jpeg'],
+    images: ['/src/Product Images/Mixture/Mixture 1.png', '/src/Product Images/Mixture/Mixture 2.png', '/src/Product Images/Mixture/Mixture 3.png'],
     variants: [
       { weight: '500g', price: 310, stock: 45 },
       { weight: '1kg', price: 600, stock: 25 }
@@ -416,6 +442,85 @@ export const products: Product[] = [
     ],
     rating: 4.3,
     reviewCount: 89,
+    isBestseller: false,
+    isNew: false
+    },
+  {
+    id: 'johna-murkulu',
+    name: 'JOHNA MURKULU',
+    slug: 'johna-murkulu',
+    category: 'snacks',
+    description: 'Traditional spiral-shaped rice flour snacks with perfect crunch and authentic South Indian taste. Classic murukulu preparation with aromatic spices.',
+    tagline: 'Classic Spiral Rice Flour Snacks',
+    ingredients: ['Rice flour', 'Urad dal', 'Sesame seeds', 'Cumin', 'Asafoetida', 'Salt', 'Oil'],
+    spiceLevel: 'Mild',
+    allergens: ['Sesame'],
+    shelfLife: '45 days',
+    storage: 'Store in airtight container in cool, dry place',
+    isVegetarian: true,
+    nutritionHighlights: ['Protein enriched', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
+    bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
+    badges: ['Traditional', 'Classic', 'Spiral'],
+    images: ['/src/Product Images/Johna Murkulu/Johna Murkulu1.webp', '/src/Product Images/Johna Murkulu/Johna Murkulu4.webp', '/src/Product Images/Johna Murkulu/Johna Murkulu3.webp'],
+    variants: [
+      { weight: '500g', price: 300, stock: 30 },
+      { weight: '1kg', price: 580, stock: 18 }
+    ],
+    rating: 4.4,
+    reviewCount: 87,
+    isBestseller: false,
+    isNew: false
+  },
+ 
+  {
+    id: 'minapapu-murkulu',
+    name: 'MINAPAPU MURKULU',
+    slug: 'minapapu-murkulu',
+    category: 'snacks',
+    description: 'Traditional black gram (minapapu) murkulu with perfect crunch and authentic South Indian taste. Classic preparation with aromatic spices and protein-rich ingredients.',
+    tagline: 'Protein-Rich Black Gram Murkulu',
+    ingredients: ['Black gram flour', 'Rice flour', 'Sesame seeds', 'Cumin', 'Asafoetida', 'Salt', 'Oil'],
+    spiceLevel: 'Mild',
+    allergens: ['Sesame'],
+    shelfLife: '45 days',
+    storage: 'Store in airtight container in cool, dry place',
+    isVegetarian: true,
+    nutritionHighlights: ['High protein', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
+    bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
+    badges: ['Traditional', 'Protein Rich', 'Classic'],
+    images: ['/src/Product Images/Minapapu Murkulu/Minapapu Murkulu4.webp', '/src/Product Images/Minapapu Murkulu/Minapapu Murkulu2.webp', '/src/Product Images/Minapapu Murkulu/Minapapu Murkulu3.webp'],
+    variants: [
+      { weight: '500g', price: 320, stock: 28 },
+      { weight: '1kg', price: 620, stock: 16 }
+    ],
+    rating: 4.5,
+    reviewCount: 95,
+    isBestseller: false,
+    isNew: false
+  },
+  {
+    id: 'white-murkulu',
+    name: 'WHITE MURKULU',
+    slug: 'white-murkulu',
+    category: 'snacks',
+    description: 'Traditional white rice flour murkulu with perfect crunch and authentic South Indian taste. Classic preparation with aromatic spices and mild flavor.',
+    tagline: 'Classic White Rice Flour Murkulu',
+    ingredients: ['Rice flour', 'Urad dal', 'Sesame seeds', 'Cumin', 'Asafoetida', 'Salt', 'Oil'],
+    spiceLevel: 'Mild',
+    allergens: ['Sesame'],
+    shelfLife: '45 days',
+    storage: 'Store in airtight container in cool, dry place',
+    isVegetarian: true,
+    nutritionHighlights: ['Protein enriched', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
+    bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
+    badges: ['Traditional', 'Classic', 'Mild'],
+    images: ['/src/Product Images/White Murkulu/White Murkulu 1.png', '/src/Product Images/White Murkulu/White Murkul 2.png',],
+    variants: [
+      { weight: '500g', price: 280, stock: 30 },
+      { weight: '1kg', price: 540, stock: 18 }
+    ],
+    rating: 4.3,
+    reviewCount: 82,
     isBestseller: false,
     isNew: false
   },
@@ -813,6 +918,32 @@ export const products: Product[] = [
     isBestseller: false,
     isNew: false
   },
+  {
+    id: 'sunundalu',
+    name: 'SUNUNDALU',
+    slug: 'sunundalu',
+    category: 'sweets',
+    description: 'Traditional sesame seed sweet balls with perfect texture and authentic South Indian taste. Healthy and energizing sweet with natural ingredients.',
+    tagline: 'Traditional Sesame Sweet Balls',
+    ingredients: ['Sesame seeds', 'Jaggery', 'Ghee', 'Cardamom', 'Cashews'],
+    spiceLevel: 'None',
+    allergens: ['Sesame', 'Dairy', 'Cashews'],
+    shelfLife: '20 days',
+    storage: 'Store in airtight container in cool, dry place',
+    isVegetarian: true,
+    nutritionHighlights: ['Calcium rich', 'Healthy fats', 'Energy booster', 'Natural sweetener'],
+    bestWith: ['Winter season', 'Breakfast', 'Energy snack', 'Traditional meals'],
+    badges: ['Traditional', 'Healthy', 'Natural'],
+    images: ['/src/Product Images/Sunundalu/Sunundalu 1.png', '/src/Product Images/Sunundalu/Sunundalu 2.png',],
+    variants: [
+      { weight: '500g', price: 640, stock: 22 },
+      { weight: '1kg', price: 1240, stock: 12 }
+    ],
+    rating: 4.7,
+    reviewCount: 98,
+    isBestseller: false,
+    isNew: false
+  },
 
   // PICKLES
   {
@@ -857,7 +988,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin A rich', 'Antioxidants', 'Digestive properties'],
     bestWith: ['Plain rice', 'Curd rice', 'Parathas', 'Traditional meals'],
     badges: ['Bestseller', 'Classic'],
-    images: ['https://images.pexels.com/photos/4518658/pexels-photo-4518658.jpeg'],
+    images: ['/src/Product Images/Mango Pickle/Mango Pickle 1.webp', '/src/Product Images/Mango Pickle/Mango Pickle 2.webp', '/src/Product Images/Mango Pickle/Mango Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 380, stock: 35 },
       { weight: '1kg', price: 740, stock: 20 }
@@ -883,7 +1014,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin C rich', 'Digestive aid', 'Natural detox'],
     bestWith: ['Rice dishes', 'Breakfast items', 'Light meals'],
     badges: ['Refreshing', 'Vitamin C'],
-    images: ['https://images.pexels.com/photos/4518660/pexels-photo-4518660.jpeg'],
+    images: ['/src/Product Images/Lemon Pickle/Lemon Pickle 1.webp', '/src/Product Images/Lemon Pickle/Lemon Pickle 2.webp', '/src/Product Images/Lemon Pickle/Lemon Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 310, stock: 30 },
       { weight: '1kg', price: 600, stock: 18 }
@@ -935,7 +1066,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Digestive aid', 'Anti-inflammatory', 'Warming properties'],
     bestWith: ['Winter meals', 'Heavy foods', 'Traditional cuisine'],
     badges: ['Medicinal', 'Warming'],
-    images: ['https://images.pexels.com/photos/4518664/pexels-photo-4518664.jpeg'],
+    images: ['/src/Product Images/Ginger Pickle/Ginger Pickle 1.webp', '/src/Product Images/Ginger Pickle/Ginger Pickle 2.webp', '/src/Product Images/Ginger Pickle/Ginger Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 370, stock: 20 },
       { weight: '1kg', price: 720, stock: 10 }

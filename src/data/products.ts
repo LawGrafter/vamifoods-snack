@@ -45,7 +45,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Natural sweetness', 'Potassium rich', 'Coconut oil benefits'],
     bestWith: ['Evening tea', 'Kids snack', 'Travel food'],
     badges: ['Natural', 'Kids-friendly'],
-    images: ['/src/Product Images/Banana Chips/Banana Chips 1.webp', '/src/Product Images/Banana Chips/Banana Chips 2.webp', '/src/Product Images/Banana Chips/Banana Chips 3.webp'],
+    images: ['/Product Images/Banana Chips/Banana Chips 1.webp', '/Product Images/Banana Chips/Banana Chips 2.webp', '/Product Images/Banana Chips/Banana Chips 3.webp'],
     variants: [
       { weight: '500g', price: 270, stock: 35 },
       { weight: '1kg', price: 520, stock: 20 }
@@ -71,7 +71,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Natural sweetness', 'Potassium rich', 'Coconut oil benefits', 'Enhanced flavor'],
     bestWith: ['Evening tea', 'Kids snack', 'Travel food', 'Movie time'],
     badges: ['Natural', 'Kids-friendly', 'Salted'],
-    images: ['/src/Product Images/Banana Chips Salted/Banana Chips Salted 1.webp', '/src/Product Images/Banana Chips Salted/Banana Chips Salted 4.webp', '/src/Product Images/Banana Chips Salted/Banana Chips Salted 3.webp'],
+    images: ['/Product Images/Banana Chips Salted/Banana Chips Salted 1.webp', '/Product Images/Banana Chips Salted/Banana Chips Salted 4.webp', '/Product Images/Banana Chips Salted/Banana Chips Salted 3.webp'],
     variants: [
       { weight: '500g', price: 270, stock: 35 },
       { weight: '1kg', price: 520, stock: 20 }
@@ -97,7 +97,7 @@ export const products: Product[] = [
     nutritionHighlights: ['High in protein', 'Good source of healthy fats', 'Gluten-free'],
     bestWith: ['Evening tea', 'Coffee', 'Buttermilk'],
     badges: ['Bestseller', 'Traditional'],
-    images: ['/src/Product Images/Palli Chekkalu/Palli Chekkalu 1.webp', '/src/Product Images/Palli Chekkalu/Palli Chekkalu 2.webp', '/src/Product Images/Palli Chekkalu/Palli Chekkalu 3.webp'],
+    images: ['/Product Images/Palli Chekkalu/Palli Chekkalu 1.webp', '/Product Images/Palli Chekkalu/Palli Chekkalu 2.webp', '/Product Images/Palli Chekkalu/Palli Chekkalu 3.webp'],
     variants: [
       { weight: '500g', price: 350, stock: 30 },
       { weight: '1kg', price: 680, stock: 15 }
@@ -175,7 +175,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Light and crispy', 'Easy to digest', 'Kid-friendly'],
     bestWith: ['Tea', 'Milk', 'Fruit juices'],
     badges: ['Kids-friendly', 'Mild'],
-    images: ['/src/Product Images/White Sakinalu/White Sakinalu 1.webp', '/src/Product Images/White Sakinalu/White Sakinalu 2.webp', '/src/Product Images/White Sakinalu/White Sakinalu 3.webp'],
+    images: ['/Product Images/White Sakinalu/White Sakinalu 1.webp', '/Product Images/White Sakinalu/White Sakinalu 2.webp', '/Product Images/White Sakinalu/White Sakinalu 3.webp'],
     variants: [
       { weight: '500g', price: 290, stock: 28 },
       { weight: '1kg', price: 560, stock: 15 }
@@ -279,7 +279,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Protein rich', 'Gluten-free', 'Low calorie'],
     bestWith: ['Yogurt', 'Raita', 'As topping'],
     badges: ['Versatile', 'Protein Rich'],
-    images: ['/src/Product Images/Boondi Kara/Boondi1.webp', '/src/Product Images/Boondi Kara/Boondi2.webp', '/src/Product Images/Boondi Kara/Boondi3.webp'],
+    images: ['/Product Images/Boondi Kara/Boondi1.webp', '/Product Images/Boondi Kara/Boondi2.webp', '/Product Images/Boondi Kara/Boondi3.webp'],
     variants: [
       { weight: '500g', price: 270, stock: 32 },
       { weight: '1kg', price: 520, stock: 16 }
@@ -305,7 +305,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin enriched', 'Crunchy texture', 'Modern recipe'],
     bestWith: ['Evening snack', 'Travel food', 'Movie time'],
     badges: ['Modern', 'Crunchy'],
-    images: ['/src/Product Images/Cornflakes/Cornflakes 1.webp', '/src/Product Images/Cornflakes/Cornflakes 2.webp', '/src/Product Images/Cornflakes/Cornflakes 3.webp'],
+    images: ['/Product Images/Cornflakes/Cornflakes 1.webp', '/Product Images/Cornflakes/Cornflakes 2.webp', '/Product Images/Cornflakes/Cornflakes 3.webp'],
     variants: [
       { weight: '500g', price: 230, stock: 35 },
       { weight: '1kg', price: 440, stock: 20 }
@@ -383,7 +383,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Traditional recipe', 'Sesame benefits', 'Authentic taste'],
     bestWith: ['Pickle', 'Chutney', 'Yogurt'],
     badges: ['Traditional', 'Authentic'],
-    images: ['/src/Product Images/Chakodilu/Chakodilu 1.webp', '/src/Product Images/Chakodilu/Chakodilu 2.webp', '/src/Product Images/Chakodilu/Chakodilu 3.webp'],
+    images: ['/Product Images/Chakodilu/Chakodilu 1.webp', '/Product Images/Chakodilu/Chakodilu 2.webp', '/Product Images/Chakodilu/Chakodilu 3.webp'],
     variants: [
       { weight: '500g', price: 280, stock: 26 },
       { weight: '1kg', price: 540, stock: 14 }
@@ -409,7 +409,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Variety of textures', 'Mixed nutrients', 'Classic taste'],
     bestWith: ['Tea', 'Coffee', 'Any time snack'],
     badges: ['Bestseller', 'Classic'],
-    images: ['/src/Product Images/Mixture/Mixture 1.png', '/src/Product Images/Mixture/Mixture 2.png', '/src/Product Images/Mixture/Mixture 3.png'],
+    images: ['/Product Images/Mixture/Mixture 1.png', '/Product Images/Mixture/Mixture 2.png', '/Product Images/Mixture/Mixture 3.png'],
     variants: [
       { weight: '500g', price: 310, stock: 45 },
       { weight: '1kg', price: 600, stock: 25 }
@@ -461,7 +461,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Protein enriched', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
     bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
     badges: ['Traditional', 'Classic', 'Spiral'],
-    images: ['/src/Product Images/Johna Murkulu/Johna Murkulu1.webp', '/src/Product Images/Johna Murkulu/Johna Murkulu4.webp', '/src/Product Images/Johna Murkulu/Johna Murkulu3.webp'],
+    images: ['/Product Images/Johna Murkulu/Johna Murkulu1.webp', '/Product Images/Johna Murkulu/Johna Murkulu4.webp', '/Product Images/Johna Murkulu/Johna Murkulu3.webp'],
     variants: [
       { weight: '500g', price: 300, stock: 30 },
       { weight: '1kg', price: 580, stock: 18 }
@@ -488,7 +488,7 @@ export const products: Product[] = [
     nutritionHighlights: ['High protein', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
     bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
     badges: ['Traditional', 'Protein Rich', 'Classic'],
-    images: ['/src/Product Images/Minapapu Murkulu/Minapapu Murkulu4.webp', '/src/Product Images/Minapapu Murkulu/Minapapu Murkulu2.webp', '/src/Product Images/Minapapu Murkulu/Minapapu Murkulu3.webp'],
+    images: ['/Product Images/Minapapu Murkulu/Minapapu Murkulu4.webp', '/Product Images/Minapapu Murkulu/Minapapu Murkulu2.webp', '/Product Images/Minapapu Murkulu/Minapapu Murkulu3.webp'],
     variants: [
       { weight: '500g', price: 320, stock: 28 },
       { weight: '1kg', price: 620, stock: 16 }
@@ -514,7 +514,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Protein enriched', 'Gluten-free', 'Traditional recipe', 'Perfect crunch'],
     bestWith: ['Coffee', 'Tea', 'Hot chocolate', 'Evening snack'],
     badges: ['Traditional', 'Classic', 'Mild'],
-    images: ['/src/Product Images/White Murkulu/White Murkulu 1.png', '/src/Product Images/White Murkulu/White Murkul 2.png',],
+    images: ['/Product Images/White Murkulu/White Murkulu 1.png', '/Product Images/White Murkulu/White Murkulu 2.png', '/Product Images/White Murkulu/White Murkulu 3.png'],
     variants: [
       { weight: '500g', price: 280, stock: 30 },
       { weight: '1kg', price: 540, stock: 18 }
@@ -934,7 +934,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Calcium rich', 'Healthy fats', 'Energy booster', 'Natural sweetener'],
     bestWith: ['Winter season', 'Breakfast', 'Energy snack', 'Traditional meals'],
     badges: ['Traditional', 'Healthy', 'Natural'],
-    images: ['/src/Product Images/Sunundalu/Sunundalu 1.png', '/src/Product Images/Sunundalu/Sunundalu 2.png',],
+    images: ['/Product Images/Sunundalu/Sunundalu 1.png', '/Product Images/Sunundalu/Sunundalu 2.png', '/Product Images/Sunundalu/Sunundalu 3.png'],
     variants: [
       { weight: '500g', price: 640, stock: 22 },
       { weight: '1kg', price: 1240, stock: 12 }
@@ -988,7 +988,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin A rich', 'Antioxidants', 'Digestive properties'],
     bestWith: ['Plain rice', 'Curd rice', 'Parathas', 'Traditional meals'],
     badges: ['Bestseller', 'Classic'],
-    images: ['/src/Product Images/Mango Pickle/Mango Pickle 1.webp', '/src/Product Images/Mango Pickle/Mango Pickle 2.webp', '/src/Product Images/Mango Pickle/Mango Pickle 3.webp'],
+    images: ['/Product Images/Mango Pickle/Mango Pickle 1.webp', '/Product Images/Mango Pickle/Mango Pickle 2.webp', '/Product Images/Mango Pickle/Mango Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 380, stock: 35 },
       { weight: '1kg', price: 740, stock: 20 }
@@ -1014,7 +1014,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Vitamin C rich', 'Digestive aid', 'Natural detox'],
     bestWith: ['Rice dishes', 'Breakfast items', 'Light meals'],
     badges: ['Refreshing', 'Vitamin C'],
-    images: ['/src/Product Images/Lemon Pickle/Lemon Pickle 1.webp', '/src/Product Images/Lemon Pickle/Lemon Pickle 2.webp', '/src/Product Images/Lemon Pickle/Lemon Pickle 3.webp'],
+    images: ['/Product Images/Lemon Pickle/Lemon Pickle 1.webp', '/Product Images/Lemon Pickle/Lemon Pickle 2.webp', '/Product Images/Lemon Pickle/Lemon Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 310, stock: 30 },
       { weight: '1kg', price: 600, stock: 18 }
@@ -1066,7 +1066,7 @@ export const products: Product[] = [
     nutritionHighlights: ['Digestive aid', 'Anti-inflammatory', 'Warming properties'],
     bestWith: ['Winter meals', 'Heavy foods', 'Traditional cuisine'],
     badges: ['Medicinal', 'Warming'],
-    images: ['/src/Product Images/Ginger Pickle/Ginger Pickle 1.webp', '/src/Product Images/Ginger Pickle/Ginger Pickle 2.webp', '/src/Product Images/Ginger Pickle/Ginger Pickle 3.webp'],
+    images: ['/Product Images/Ginger Pickle/Ginger Pickle 1.webp', '/Product Images/Ginger Pickle/Ginger Pickle 2.webp', '/Product Images/Ginger Pickle/Ginger Pickle 3.webp'],
     variants: [
       { weight: '500g', price: 370, stock: 20 },
       { weight: '1kg', price: 720, stock: 10 }
